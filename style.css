@@ -1,0 +1,132 @@
+body{margin:0px;}
+	.Top_content{
+		position:absolute;
+		background-image:url(images/back_image.png);
+		background-size:cover;
+		width:100%;
+		height:43vw;
+	}
+	.darkness{
+		position:absolute;
+		width:100%;
+		height:100%;
+		background-color:#000000;
+		opacity: 0.3;
+	}
+	.top_name{
+		position:fixed;
+		width:100%;
+		height:6vw;
+		background-color:#ffffff;
+		z-index:2;
+	}
+	.top_menu{
+		position:absolute;
+		width:100%;
+		height:2.5vw;
+		background-color:#000000;
+	}
+	.menu{
+		position:absolute;
+		margin-top:0.1vw;
+		left:26vw;
+	}
+	.menu_link{
+		text-decoration:none;
+		color:#ffffff;
+		margin-right:1.1vw;
+		font-size: 1.1vw;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding: 0.5vw 1.1vw;
+		text-align: center;
+		display: inline-block;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+	.menu_link:hover{
+		text-decoration:none;
+		color:#ffffff;
+		margin-right:1vw;
+		font-size: 1.1vw;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding: 0.5vw 1.1vw;
+		text-align: center;
+		display: inline-block;
+		background-color:grey;
+		opacity:0.7;
+		border-radius: 100%;
+	}
+	.KR{
+		position:fixed;
+		background-color:#000000;
+		width:6.5vw;
+		height:5.5vw;
+		top:2vw;
+		left:15vw;
+		z-index:4;
+		color:#ffffff;
+		font-family: 'Lobster', cursive;
+		font-size:4vw;
+		text-align:center;
+	}
+	.logos{
+		position:fixed;
+		top:1vw;
+		left:73vw;
+		z-index:4;
+		background-color:#ffffff;
+		height:2.5vw;
+		border-radius:100%;
+		border-style: solid;
+		border-color: #ffffff;
+	}
+	.Who_am_i_div{
+		position:fixed;
+		width:100%;
+		top:2.5vw;
+		height:3.5vw;
+		z-index:3;
+		background-color:#ffffff;
+	}
+	.Who_am_i{
+		position:absolute;
+		top:1vw;
+		left:27vw;
+		height:3.5vw;
+		color:#000000;
+		font-size:1.5vw;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	.white_div_on_img{
+		position:relative;
+		width:100%;
+		height:13vw;
+		background-color:#ffffff;
+		top:30vw;
+	}
+	.my_photo{
+		position:relative;
+		height:15vw;
+		top:-11.5vw;
+		left:15vw;
+		border-style: solid;
+		border-color: #ffffff;
+		border-width:0.6vw;
+	}
+	.text_near_myphoto{
+		position:absolute;
+		top:0vw;
+		left:29vw;
+		line-height:0.3;
+		font-family: 'Cabin', sans-serif;
+		font-size:1.2vw;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
