@@ -25,13 +25,19 @@ body{margin:0px;}
 	}
 	.Top_content{
 		position:relative;
+		background-size:cover;
+		width:100%;
+		height:43vw;
+	}
+	.back_content{
+		position:fixed;
 		background-image:url(images/back_image.png);
 		background-size:cover;
 		width:100%;
 		height:43vw;
 	}
 	.darkness{
-		position:absolute;
+		position:fixed;
 		width:100%;
 		height:100%;
 		background-color:#000000;
@@ -43,12 +49,14 @@ body{margin:0px;}
 		height:6vw;
 		background-color:#ffffff;
 		z-index:2;
+		
 	}
 	.top_menu{
 		position:absolute;
 		width:100%;
 		height:2.5vw;
 		background-color:#000000;
+		box-shadow: 0 0 2px rgba(0,0,0,1);
 	}
 	.menu{
 		position:absolute;
@@ -94,6 +102,7 @@ body{margin:0px;}
 		font-family: 'Lobster', cursive;
 		font-size:4vw;
 		text-align:center;
+		box-shadow: 0 0 2px rgba(0,0,0,1);
 	}
 	.logos{
 		position:fixed;
@@ -114,7 +123,7 @@ body{margin:0px;}
 		height:3.5vw;
 		z-index:3;
 		background-color:#ffffff;
-		box-shadow: 0 0 2px;
+		box-shadow: 0 0 10px rgba(200,200,200,0.5);
 	}
 	.Who_am_i{
 		position:absolute;
@@ -131,6 +140,7 @@ body{margin:0px;}
 		height:7vw;
 		background-color:#ffffff;
 		top:30vw;
+		box-shadow: 0 0 2px;
 	}
 	.my_photo{
 		position:relative;
@@ -140,6 +150,7 @@ body{margin:0px;}
 		border-style: solid;
 		border-color: #ffffff;
 		border-width:0.6vw;
+		box-shadow: 0 0 2px  rgba(200,200,200,0.5);
 	}
 	.text_near_myphoto{
 		position:absolute;
@@ -157,6 +168,7 @@ body{margin:0px;}
 		font-family: 'Cabin', sans-serif;
 		font-size:1.5vw;
 		background-color:#E8E6D1;
+
 	}
 	.table_about{
 		position:relative;
@@ -231,23 +243,23 @@ body{margin:0px;}
 	.contacts{
 		position:relative;
 		width:100%;
-		height:15vw;
-		margin-top:2vw;
 		font-family: 'Montserrat', sans-serif;
 		font-size:1.3vw;
 		background-color:#E8E6D1;
+
 	}
 	.contact_inf{
 		position:relative;
 		margin-left:23vw;
-		margin-top:1vw;
+		margin-top:3vw;
+		bottom:3vw;
 	}
 	.footer{
 		position:relative;
 		width:100%;
-		height:3vw;
+		height:4vw;
 		text-align:center;
-		margin-top:2vw;
+		background-color:#ffffff;
 		font-family:'Montserrat', sans-serif;
 		font-size:1vw;
 	}
