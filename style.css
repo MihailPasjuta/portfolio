@@ -230,7 +230,7 @@ body{margin:0px;}
  }
 	.project_text{
 		position:absolute;
-		top:0vw;
+		top:-1vw;
 		left:20vw;
 	}
 	.project_link{
