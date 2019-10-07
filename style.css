@@ -215,7 +215,7 @@ body{margin:0px;}
 	}
 	.project_img{
 		position: relative;
-		height:8vw;
+		width:17vw;
 		border-style: solid;
 		border-color: #646464;
 		border-width:0.1vw;
@@ -469,7 +469,7 @@ body{margin:0px;}
 	}
 	.project_img{
 		position: relative;
-		height:16vw;
+		width:34vw;
 		border-style: solid;
 		border-color: #646464;
 		border-width:0.1vw;
@@ -484,7 +484,7 @@ body{margin:0px;}
  }
 	.project_text{
 		position:absolute;
-		top:0vw;
+		top:-2vw;
 		left:38vw;
 	}
 	.project_link{
